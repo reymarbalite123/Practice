@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  nav {
+    display: flex;
+    gap: 55px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .signup-btn {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  
+  .container {
+    background-color: #6b00f5;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .container-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .container-text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .start-btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .Tablets-image img {
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  .nav-wrapper {
+    padding-right: 7%;
+  }
